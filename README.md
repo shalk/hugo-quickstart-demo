@@ -73,7 +73,7 @@ hugo server -b 0.0.0.0:1314 --verbose -D
 5. install `hugo` locally, create post by `hugo new post content/posts/your-post-name.md` command
 6. use your favorite editor to edit markdown file , while   http://localhost:1313/  will reload silently by hugo
 7. git commit and push
-8. host your blog by [netify](https://www.netlify.com/) or [github pages](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
+8. host your blog by [netlify](https://www.netlify.com/) or [github pages](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
 
 
 
