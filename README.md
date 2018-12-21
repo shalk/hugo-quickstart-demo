@@ -14,7 +14,7 @@ Please star , fork and enjoy it!
 If you have installed docker, just run this :
 
 ```
-curl -sSL https://git.io/fhv5U | sh -
+curl -sSL https://git.io/hugodemo | sh -
 ```
 
 
