@@ -9,54 +9,30 @@ Please star , fork and enjoy it!
 
 [中文说明](https://github.com/shalk/hugo-quickstart-demo/blob/master/README_zh.md)
 
-## One Line
-
-If you have installed docker, just run this :
-
-```
-curl -sSL https://git.io/hugodemo | sh -
-```
 
 
+## Getting started
 
-## Usage
+Use our deploy button to create your own copy of the repository
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/shalk/hugo-quickstart-demo)
 
 
-1. fork the repository, click the fork button
 
+## Local Development
 
-2. clone your repository
+Clone your repository and enter directory first
 
 ```
-git clone --recursive https://github.com/<input-your-user-name>/hugo-quickstart-demo.git
+git clone --recursive https://github.com/<input-your-user-name>/hugo-quickstart-demo.git && cd hugo-quickstart-demo
 ```
 
-3. enter directory
-
-```
-cd hugo-quickstart-demo
-```
-
-4. setup server:
+Then,  you can use docker or hugo to bootstrap server.
 
 
-- Docker User, just run :
+- For Docker User, just run `./docker-run.sh`command，preview at  http://localhost:1313 
 
-```
-./docker-run.sh
-```
-
-Please visit http://localhost:1313  and preview your blog
-
-If your want to stop it, just run:
-
-```
-./docker-stop.sh
-```
-
-- For Hugo User
-
-If you have [installed hugo](https://gohugo.io/getting-started/installing/) ， run the following command:
+- For Hugo User， run the following command（
 
 ```
 hugo server -b 0.0.0.0:1314 --verbose -D
@@ -66,19 +42,21 @@ hugo server -b 0.0.0.0:1314 --verbose -D
 
 ## My Best Practice
 
-1. install docker ( recommend, optional)
-2. fork template repository
+1. Click the deploy button to create your repository 
+2. install docker ( recommend, optional)
 3. git clone your repository
-4. run script  `docker-run.sh` ( recommend, optional)  or   run `hugo server` command
-5. install `hugo` locally, create post by `hugo new post content/posts/your-post-name.md` command
+4. install `hugo` locally, create post by `hugo new post content/posts/your-post-name.md` command
+5. run script  `docker-run.sh` ( recommend, optional)  or   run `hugo server` command
 6. use your favorite editor to edit markdown file , while   http://localhost:1313/  will reload silently by hugo
 7. git commit and push
-8. host your blog by [netlify](https://www.netlify.com/) or [github pages](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
+8. custom your website domain name in netlify
 
 
 
 
 ## Read More
+
+[How to install hugo](https://gohugo.io/getting-started/installing/)
 
 [Hugo](https://gohugo.io/)
 
