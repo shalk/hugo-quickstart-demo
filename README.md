@@ -7,7 +7,7 @@ If you want to try hugo,  you can create a blog in 5 minutes with the template!
 
 Please star , fork and enjoy it!
 
-
+[中文说明](https://github.com/shalk/hugo-quickstart-demo/blob/master/README_zh.md)
 
 ## One Line
 
